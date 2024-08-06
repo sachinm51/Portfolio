@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sachin Maurya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b03ac248a1.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+  </head>
+  <body>
+   
+
+   <div id="header">
+    <div class="container">
+      <nav>
+        <img src="sachin.jpg" alt="">
+        <ul id="sidemenu">
+          <li id="list"><a href="#header">Home</a></li>
+          <li id="list"><a href="#about"> About</a></li>
+          <li id="list"><a href="#service">Services</a></li>
+          <li id="list"><a href="#project">Projcets</a></li>
+          <li id="list"><a href="#contact">Contact </a></li>
+         
+          <i class="fa-solid fa-circle-xmark" id="navicons" onclick="closemenu()"></i>
+          <!-- <i class="fa-regular fa-moon" id="changetheame"></i> -->
+        </ul>
+        <i class="fa-solid fa-bars" id="navicons" onclick="openmenu()"></i>
+
+      </nav>
+
+      <div class="header-text">
+       <span class="first-span">Hello , I am </span><span  class="second-span">Sachin </span>
+       <h1>A passionate </h1>
+      <h2 id="element"></h2>
+
+
+       <a href="https://www.freelancer.in/"> <button type="submit" class=" btn btn2">Hire Me</button></a>
+
+      </div>
+    </div>
+   </div>
+    
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+     <script src="js/jquery-3.7.1.min.js"></script>
+   <div id="about">
+      <section class="secordsection">
+        <div class="about">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="aboutpic.jpg" alt="" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                I am a dedicated and enthusiastic coder with a love for turning
+                ideas into reality through lines of code. From tinkering with
+                HTML and CSS to diving into more complex languages like Python
+                and JavaScript, I've always been drawn to the creative and
+                problem-solving aspects of coding.
+              </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('Experiences')">
+                  Experiences
+                </p>
+                <p class="tab-links" onclick="opentab('Education')">
+                  Education
+                </p>
+              </div>
+
+              <div class="tab-content active-tab" id="Skills">
+                <ul>
+                  <li><span>UI/UX</span><br />Design User interface</li>
+                  <li>
+                    <span>Web Development</span><br />HTML/ CSS/ Javascript/ and
+                    others Framworks
+                  </li>
+                  <li>
+                    <span>App Development</span><br />Designing App interfaces
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="Experiences">
+                <ul>
+                  <li>
+                    <span>Web Development</span><br />
+                    Build a renponsive Website
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="Education">
+                <ul>
+                  <li><span>12th</span><br />completed in 2020</li>
+                  <li>
+                    <span>Bachelor in Computer Application (BCA)</span><br />
+                    2023, VNSGU
+                  </li>
+                  <li>
+                    <span> Master Of computer application(MCA)</span><br />
+                    2025 , VNSGU.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <div id="service">
+      <section class="thirdsection">
+        <div class="service">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div class="icons" >
+              <i class="fa-solid fa-code"></i>
+
+              <h2>Web Design</h2>
+              <p>
+                As a web designer, my portfolio is a digital showcase of my creativity and expertise. It's a curated collection of visually stunning websites I've crafted, demonstrating my design skills, attention to detail, and ability to create engaging user experiences.
+              </p>
+              <a href="#">Learn More</a>
+            </div >
+            <div class="icons">
+              <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+              <p>
+                UI/UX design encompasses the process of creating user-friendly and visually appealing digital interfaces. User Experience (UX) design focuses on understanding user behaviors, needs, and motivations to optimize the usability and functionality of a product. 
+              </p>
+              <a href="#">Learn More</a>
+            </div >
+            <div class="icons">
+              <i class="fa-brands fa-android"></i>
+              <h2>App Design</h2>
+              <p>
+               I Design user intractive Android application in Java programming language .App design refers to the process of creating intuitive and visually appealing user interfaces for mobile applications. 
+              </p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <div id="project">
+      <section class="forthsection">
+        <div class="project">
+          <h1 class="sub-title">Projects</h1>
+          <div class="worklist">
+            <div class="work">
+              <img class="project-img" src="currconvert.png" alt="" />
+              <div class="layer">
+                <h3>
+                    Currency Converter
+                </h3>
+              </div>
+            </div>
+            <div class="work">
+              <img class="project-img" src="androidproject.png" alt="" />
+              <div class="layer">
+                <h3>
+                        College Management 
+                </h3>
+                <h3>System</h3>
+                <h4>Android App</h4>
+              </div>
+            </div>
+            <div class="work">
+              <img class="project-img" src="https://www.zdnet.com/a/img/resize/d32d4cfc00a776277ac091b1d3fea9e5f15c819e/2022/05/18/830e6364-cc17-4e4b-ba22-db7866c57dec/carrot-weather-best-weather-app.jpg?auto=webp&fit=crop&height=360&width=640" alt="" />
+
+              <div class="layer">
+                <h3>
+                    Weather App
+                </h3>
+                <h4>Wed Design</h4>
+              </div>
+            </div>
+            <div class="work">
+              <img class="project-img" src="tourdairy.png" alt="" />
+              <div class="layer">
+                <h3>
+                    Tour Dairy
+                </h3>
+                <h4>Tour Website</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      </div>
+
+
+      <div id="contact">
+      <section class="fifthsection">
+        <div class="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">  Contact Me</h1>
+                    <p> <i class="fa-regular fa-envelope"></i> sachinm2620@gmail.com</p>
+                    <p> <i class="fa-regular fa-phone"></i> 7284850580</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100054732942967"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/__sachin05/?next=%2F"><i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                        <a href="https://github.com/sachinm51/sachinm51"><i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                        <form action="" name = "submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Enter your Name" id="" required>
+                            <input type="email"  name="Email" placeholder="Enter your Email" name="" id="" required>
+                            <textarea name="Massage" id="" cols="30" rows="6" placeholder="Massege" ></textarea>
+                            <button type="submit" class=" btn btn2">Send Massege</button>
+                        </form>
+                
+            </div>
+        </div>
+      </section>
+      </div>
+    </main>
+
+    <div class="footer">
+        <p>&copy; Sachin Maurya </p>
+    </div>
+
+    <script>
+         var typed = new Typed('#element', {
+      strings: ['Web developer', 'Tech enthusiast','Competitive Programmer'],
+      typeSpeed: 50,
+    });
+    </script>
+    
+    <script>
+      $(document).ready(function (){
+        $("#id").click(function() {
+          $("#sidemenu").animate({
+            right:"-200px"
+          })
+        })
+      })
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
